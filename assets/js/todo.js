@@ -26,7 +26,7 @@ $("input[type='text']").keypress(function(event){
       $('ul').append('<li><span><i class="fas fa-minus-circle"></i></span> ' + todo + '</li>');
     }
 });
-
+//fades out/in the input
 $('#toggle-form').click(function(){
     $("input[type='text']").fadeToggle();
 });
